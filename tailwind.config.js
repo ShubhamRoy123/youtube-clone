@@ -1,9 +1,5 @@
-import type { Config } from 'tailwindcss';
-import daisyui from 'daisyui';
-import themes from 'daisyui/theme/object';
-
-
-export default  {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -11,17 +7,17 @@ export default  {
   ],
   theme: {
     extend: {
-        colors:{
-            background: "var(--background)",
-            foreground: "var(--foreground)",
-        },
+      colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+      },
     },
   },
-  plugins: [daisyui],
+  plugins: [require('daisyui')],
   daisyui:{
       themes: ["dark"],
       darkTheme: "dark",
   },
+
   darkMode: "class", // Enable dark mode supports
-  
-}satisfies Config;
+};
