@@ -31,7 +31,11 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
+<<<<<<< HEAD
 .env*
+=======
+.env.local
+>>>>>>> b10c525 (Initial commit: Upload YouTube clone project)
 
 # vercel
 .vercel

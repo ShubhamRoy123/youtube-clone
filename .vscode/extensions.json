@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "rphlmr.vscode-drizzle-orm",
+        "mongodb.mongodb-vscode"
+    ]
+}
