@@ -1,7 +1,7 @@
 
 import mongoose from 'mongoose';
 
-const MONGOOSE_URI = 'mongodb+srv://roy388925:JE1Em1OgYF9RFmQ2@instagram-clone.jo3ml6n.mongodb.net/?retryWrites=true&w=majority';
+const MONGOOSE_URI = 'pagal samjha h kya khud bna le meri api dekhne aaya h';
 
 if (!MONGOOSE_URI) {
     throw new Error('MongoDB connection string is not set');
